@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Erkut</title>
+  <title>Erkut</title>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -12,17 +12,21 @@
 		
 		h1, h2, h3, p, ul, li {margin:0px; padding:0px;}
 		
-		.links ul{list-style:none}
-		.links li{font-size: 4em;font-weight:bold}
+		.links ul{
+	list-style:none;
+	text-align: center;
+}
+		.links li{position:static; font-size: 4em;font-weight:bold}
 		.links a{color:#fff; text-decoration:none; display: block; padding:0 10px; transition:padding-left .3s}
-		.links a:hover{background: #000; padding-left:30px}
+		.links a:hover{background: #000; padding-bottom:30px}
 		
+	
 		header, footer{position:fixed; font-size: .8em; bottom: 20px;}
 		header { left: 10px;}
 		header h1{font-size: 1em; color:#ccc; background:#000; padding: 5px;  }
 		footer { right: 20px;}
 		footer a{color:#ccc; background:#000; padding: 5px;  text-decoration:none; transition:color .3s, background-color .3s}
-		footer a:hover{color:#000; background-color:#fff;}
+		
 	</style>
 	
   </head>
@@ -36,9 +40,9 @@
 			<ul>
 				<li><a href="https:///">Github</a></li>
 				<li><a href="http://">Stack Overflow</a></li>
-				<li><a href="http:///">Tumblr</a></li>
-				<li><a href="http:///">Deviantart</a></li>
-				<li><a href="http://">Behance</a></li>
+			  <li><a href="http:///">Tumblr</a></li>
+			  <li><a href="http:///">Deviantart</a></li>
+			  <li><a href="http://">Behance</a></li>
 			</ul>
 		</section>
 		
@@ -75,11 +79,7 @@
 				text:'"Gransasso" by Daniel Zedda',
 				link:'http://www.flickr.com/photos/astragony/9514752555/'
 			},
-			{
-				bgUrl:'http://farm4.staticflickr.com/3727/9497885517_4bf6fcf8b5_k.jpg',
-				text:'"Take the dirt road" by Burt Goodspeed',
-				link:'http://www.flickr.com/photos/numero-b/9497885517/'
-			},
+			
 			{
 				bgUrl:'http://farm6.staticflickr.com/5532/11300754234_dbda5067eb_k.jpg',
 				text:'"Mosaic Highway" by Steve Rengers',
